@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+	<!-- Website Title & Description for Search Engine purposes -->
+	<title>Portfoio Page</title>
+	<meta name="description" content="">
+
+	<!-- Mobile viewport optimized -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<!--Adding the fonts-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	<link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Orbitron:700' rel='stylesheet' type='text/css'>
+
+	<!-- Bootstrap CSS -->
+	<link href="css/lib/bootstrap.min.css" rel="stylesheet">
+	<link href="css/lib/bootstrap-glyphicons.css" rel="stylesheet">
+
+	<!-- Custom CSS -->
+	<link href="css/styles.css" rel="stylesheet">
+
+	<!-- Include Modernizr in the head, before any other Javascript -->
+	<script src="js/lib/modernizr-2.6.2.min.js"></script>
+
+</head>
+<body>
+
+	<div class="container" id="main">
+		<div class="navbar navbar-fixed-top navbarcss">
+			<div class="container">
+				<button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="/"><img src="images/logo1.jpg" alt="" /></a>
+				<div class="nav-collapse collapse navbar-responsive-collapse">
+					<ul class="nav navbar-nav pull-left">
+						<li class="active"><a href="#">Home</a></li>
+						<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Product <strong class="caret"></strong></a>
+							<ul class="dropdown-menu">
+								<li><a href="#">Booking</a></li>
+								<li><a href="#">Packages</a></li>
+								<li><a href="#">Tour</a></li>
+								<li class="divider"></li>
+								<li><a href="portfolio.html">Portfolio</a></li>
+								<li><a href="services.html">Services</a></li>
+								<li class="dropdown-header">More Services
+								</li>
+							</ul>
+						</li>
+					</ul>
+					<form class="navbar-form pull-left">
+						<input type="text" class="form-control" placeholder="Search this site..." name="name" id="searchInput">
+						<button type="submit"class="btn btn-default"><span class="glyphicon glyphicon-search">
+
+						</span></button>
+					</form>
+					<ul class="nav navbar-nav pull-right">
+						<li class=""><a href="#myModal"  data-toggle="modal">Login/Sign Up</a></li>
+						<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span>My Account <strong class="caret"></strong></a>
+							<ul class="dropdown-menu">
+								<li><a href="#"><span class="glyphicon glyphicon-user"> </span>My Profile</a></li>
+								<li><a href="#"><span class="glyphicon glyphicon-wrench">  </span>Settings</a></li>
+								<li><a href="#"><span class="glyphicon glyphicon-off">  </span>Logout</a></li>
+							</ul>
+						</ul>
+					</li>
+				</div>
+			</div>
+		</div>
+		<div class="carousel slide" id="myCarousel">
+			<ol class="carousel-indicators">
+				<li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+				<li class="" data-slide-to="1" data-target="#myCarousel"></li>
+				<li class="" data-slide-to="2" data-target="#myCarousel"></li>
+				<li class="" data-slide-to="3" data-target="#myCarousel"></li>
+			</ol>
+			<div class="carousel-inner">
+				<div class="item active" id="slide1">
+					<div class="carousel-caption">
+						<h4>Love Story about Taj Mahal</h4>
+						<p>
+							The Taj Mahal rises above the banks of the river like a solitary tear suspended on the cheek of time.
+						</p>
+					</div>
+				</div>
+				<div class="item" id="slide2">
+					<div class="carousel-caption">
+						<h4>Romance in Paris</h4>
+						<p>
+							A walk about Paris will provide lessons in history, beauty, and in the point of Life.
+						</p>
+					</div>
+				</div>
+				<div class="item" id="slide3">
+					<div class="carousel-caption">
+						<h4>Seven Wonder of World</h4>
+						<p>
+							Better to see something once than to hear about it a thousand times.
+						</p>
+					</div>
+				</div>
+				<div class="item" id="slide4">
+					<div class="carousel-caption">
+						<h4>Opera House & Harvard Bridge</h4>
+						<p>
+							Don't worry about the world ending today, it's already tommorrow in Australia.
+						</p>
+					</div>
+				</div>
+			</div>
+			<a href="#myCarousel" class="left carousel-control" data-slide="prev"><span class="icon-prev"></span></a>
+			<a href="#myCarousel" class="right carousel-control" data-slide="next"><span class="icon-next"></span></a>
+		</div>
+		<div class="alert alert-success alert-block fade in col-lg-12" id="successAlert" hidden="hidden">
+			<button type="button" class="close" id="successAlertx">&times;</button>
+			<h4>Congratulation</h4>
+			<p>
+				Congratulation You have successfully joined.
+			</p>
+		</div><!--end of alert-->
+		<div class="row " id="features">
+			<div class="col-sm-12">
+				<h2>Our Blog</h2>
+			</div>	<!-- End of col-12-->
+			<div class="col-lg-12 feature">
+			<div class="panel">
+				<div class="panel-heading">
+					<h3 class="panel-title">History Of Taj Mahal</h3>
+				</div>
+				<article>
+					<img src="images/taj_mahal.jpg" class="img_posi img-responsive"/>
+					<div class="preview">
+						<ul class='meta'>
+							<li><a href="#">Article</a></li>
+							<li><a href="#">Edit</a></li>
+						</ul>
+						<p class="post_info"><a href="#">Shrinivas K</a>
+							<a href="#">On 20 Jan 2016 with</a>
+							<a href="#">101  Comments</a>
+
+						</p>
+						<div class="content">
+							<p class="article_content" >
+								Taj Mahal, the magnificent monument that stands at the heart of India has a story that has been melting the hearts of millions of listeners since the time Taj has been visible. A story, that although ended back in 1631, continues to live on in the form of Taj and is considered a living example of eternal love. It's the love story of Shah Jahan and Mumtaz Mahal, two people from the course of history who set an example for the people living in present and the future to come. An English poet, Sir Edwin Arnold best describes it as "Not a piece of architecture, as other buildings are, but the proud passion of an emperor's love wrought in living stones."
+							</p>
+						</div>
+						<a href="#">Read more...</a>
+					</div>
+				</article>
+			</div>
+			<div class="panel">
+				<div class="panel-heading">
+					<h3 class="panel-title">Romance in Paris</h3>
+				</div>
+				<article>
+					<img src="images/paris.jpg" class="img_posi img-responsive"/>
+					<div class="preview">
+						<ul class='meta'>
+							<li><a href="#">Article</a></li>
+							<li><a href="#">Edit</a></li>
+						</ul>
+						<p class="post_info"><a href="#">Soumitra Kar</a>
+							<a href="#">On 31 Oct 2015 with</a>
+							<a href="#">52 Comments</a>
+						</p>
+
+						<div class="content">
+							<p class="article_content" >
+								The country France is a very beautiful and wonderful country and Paris city of France is very famous for its beautiful looking tower. The name of the tower is Eiffel tower which is a very renowned tower of Paris. It is believed that the couples come and make a vow near the tower and promise to stay together, all their promises becomes true which they take under the tower.There was a photographer who was a woman, one day she went to take pictures of the buildings in the Paris city and while she was clicking the pictures, she saw the huge tower. It was either by mistake or with intention that she saw a guy taking the pictures who was clicked in the photo.
+							</p>
+						</div>
+						<a href="#">Read more...</a>
+					</div>
+				</article>
+			</div>
+			<div class="panel">
+				<div class="panel-heading">
+					<h3 class="panel-title">Studying in Australia</h3>
+				</div>
+				<article>
+					<img src="images/australia.jpg" class="img_posi img-responsive"/>
+					<div class="preview">
+						<ul class='meta'>
+							<li><a href="#">Article</a></li>
+							<li><a href="#">Edit</a></li>
+						</ul>
+						<p class="post_info"><a href="#">Sharan L</a>
+							<a href="#">On 11 Jun 2015 with</a>
+							<a href="#">15 Comments</a>
+						</p>
+						<div class="content">
+							<p class="article_content" >
+
+								Australia, with its high fees and cost of living, is the world's most expensive destination for international students.
+
+								A study by HSBC found that foreign students were having to fork out more than $42,300 a year on average to study at Australian universities.
+
+								The US is not far behind in total expense, with an average yearly cost of $39,200 (US$35,700) a year, followed by Britain at $33,300 (£19,600). About a third of the world's international students are now studying in these two countries, HSBC's report said.
+
+								While Australian fees are roughly on par with US prices, it's the cost of living that makes a big difference, with the yearly average in Australia sitting above $14,400
+							</p>
+						</div>
+						<a href="#">Read more...</a>
+					</div>
+				</article>
+			</div>
+		</div>
+	</div>
+	<div corelass="row" id="moreInfo">
+		<div class="col-sm-6">
+			<div class=" modal fade" id="myModal">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button class="close" data-dismiss="modal">&times;</button>
+							<h4 class="modal-title">Login / Sign Up</h4>
+						</div><!--end of modal-header-->
+						<div class="modal-body">
+							<div class="tabbable">
+								<ul class="nav nav-tabs">
+									<li class="active"><a href="#tab1" data-toggle="tab">Login</a></li>
+									<li><a href="#tab2" data-toggle="tab">Register</a></li>
+								</ul>
+								<div class="tab-content">
+									<div class="tab-pane active" id="tab1">
+										<form class="form-horizontal">
+											<div class="form-group">
+												<label for="inputEmail3" class=" control-label">Email</label>
+												<input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+											</div>
+											<div class="form-group">
+												<label for="inputPassword3" class="control-label">Password</label>
+												<input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+											</div>
+											<div class="form-group">
+												<div class="col-sm-6">
+													<div class="checkbox">
+														<label>
+															<input type="checkbox"> Remember me
+														</label>
+													</div>
+												</div>
+											</div>
+											<div class="form-group">
+												<div class="col-sm-6">
+													<button type="submit" class="btn pull-right btn-primary">Login</button>
+												</div>
+											</div>
+										</form>
+									</div>
+									<div class="tab-pane" id="tab2" >
+										<form class="form-horizontal">
+											<div class="form-group">
+												<label for="inputEmail3" class="control-label">First Name</label>
+												<input type="text" class="form-control" id="inputEmail3" placeholder="First Name">
+											</div>
+											<div class="form-group">
+												<label for="inputPassword3" class="control-label">Last Name</label>
+												<input type="text" class="form-control" id="inputPassword3" placeholder="Last Name">
+
+											</div>
+											<div class="form-group">
+												<label for="inputPassword3" class="control-label">Country</label>
+												<input type="text" class="form-control" id="inputPassword3" placeholder="Country">
+											</div>
+											<div class="form-group">
+												<label for="inputPassword3" class="control-label">Password</label>
+												<input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+											</div>
+											<div class="form-group">
+												<label for="inputPassword3" class="control-label">Re-Password</label>
+												<input type="password" class="form-control" id="inputPassword3" placeholder="Re-Password">
+											</div>
+											<div class="form-group">
+												<div class="col-sm-12">
+													<button class="col-sm-5 btn btn-primary pull-left" id="joinMe" data-dismiss="modal" type="button">Join Now </button>
+													<button class="col-sm-5 btn btn-medium btn-primary pull-right" id="facebookid">Continue with Facebook</button>
+												</div>
+											</div>
+										</form>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div><!--end of modal-content-->
+				</div><!--end of modal-dialog-->
+			</div><!--end of modal-->
+		</div>
+	</div>
+</div>
+<footer class=" col-lg-12">
+	<h5 class="footertext">  Copyright &#169; 2016 Shina Travels Company Design & Developed by Shrinivas Kamath <br><a href="#">Terms and conditions</a>| shrinivaskamath143@gmail.com | 9844673333</h5>
+	<a href="#"><span class="fa fa-facebook footerbimg" ></span></a>
+	<a href="#"><span class="fa fa-twitter footerbimg" ></span></a>
+	<a href="#"><span class="fa fa-google-plus footerbimg" ></span></a>
+	<a href="#"><span class="fa fa-instagram footerbimg" ></span></a>
+</footer>
+
+
+<!-- All Javascript at the bottom of the page for faster page loading -->
+
+<!-- First try for the online version of jQuery-->
+<script src="http://code.jquery.com/jquery.js"></script>
+
+<!-- If no online access, fallback to our hardcoded version of jQuery -->
+<script>window.jQuery || document.write('<script src="js/lib/jquery-1.8.2.min.js"><\/script>')</script>
+
+<!-- Bootstrap JS -->
+<script src="js/lib/bootstrap.min.js"></script>
+
+<!-- Custom JS -->
+<script src="js/script.js"></script>
+
+</body>
+</html>

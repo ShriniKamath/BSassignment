@@ -1,0 +1,240 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Brad Hussey
+Updated: August 2013
+Notes:	 Hand coded for Udemy.com
+
+*/
+
+
+/* --------------------------------------
+Layout
+-------------------------------------- */
+.navbarcss{
+  background:#C5EFF7;
+}
+#features{
+  text-align: center;
+}
+#features img{
+  margin: 0 0 20px;
+}
+#tab2{
+  padding:0px 20px;
+}
+#tab1{
+  padding:0px 20px;
+}
+.preview{
+  background: white;
+}
+.img_posi{
+  padding: 10px;
+  width:50%;
+  height:325px;
+  min-width:250px;
+}
+article img {
+  float: left;
+  margin-right: 25px;
+}
+article h2{
+  margin-top:0px;
+}
+.meta{
+  padding: 0;
+  margin-top: 0;
+}
+.meta a{
+  font-style: italic;
+  font-size: 14px;
+}
+.meta li:after{
+  content: '\|';
+  padding: 0 5px;
+}
+.meta li{
+  display: inline;
+}
+.meta li:last-child:after{
+  content:'';
+}
+.content_header{
+  height: 40px;
+  margin-top:10px;
+}
+.content_header h1{
+  font-size: 25px;
+}
+.article_title{
+  font-size: 24px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  font-family: "Orbitron",serif;
+}
+.article_content{
+  text-align: justify;
+  margin-top: 8px;
+  font-size: 17px;
+}
+.footerbimg{
+  margin-top:15px;
+  font-size:40px;
+}
+footer{
+  background-color: #C5EFF7;
+  margin-left: 0px;
+}
+.footertext{
+  margin-top:25px;
+  float: right;
+}
+/* --------------------------------------
+Typography
+-------------------------------------- */
+body {
+  -webkit-font-smoothing:antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* --------------------------------------
+Navbar
+-------------------------------------- */
+#searchInput{
+  width: 250px;
+}
+.navbar-brand{
+  padding: 0 0 0 15px;
+}
+
+
+/* --------------------------------------
+Carousel
+-------------------------------------- */
+.myCarousel{
+  margin-top: 60px;
+}
+.carousel-caption{
+  font-size: 24px;
+}
+.carousel-caption h4{
+  font-size: 34px;
+}
+#myCarousel .item{
+  height: 500px;
+}
+#slide1{
+  background: url('../images/01.jpg') top left no-repeat;
+  background-size: 1200px 500px;
+}
+#slide2{
+  background: url('../images/02.jpg') top left no-repeat;
+  background-size: 1200px 500px;
+}
+#slide3{
+  background: url('../images/03.jpg') top left no-repeat;
+  background-size: 1200px 500px;
+}
+#slide4{
+  background: url('../images/04.jpg') top left no-repeat;
+  background-size: 1200px 500px;
+}
+#font_res{
+  font-size:15px;
+}
+/* --------------------------------------
+Global Styles
+-------------------------------------- */
+.alert{
+  margin-top: 20px;
+  display: none;
+}
+.well{
+  margin: 20px 0;
+}
+
+/* --------------------------------------
+Media Queries
+-------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+  #myCarousel .item{
+    height: 150px;
+    display:none;
+  }
+  #slide1{
+    background: url('../images/01.jpg') top left no-repeat;
+    background-size: 100% 150px;
+  }
+  #slide2{
+    background: url('../images/02.jpg') top left no-repeat;
+    background-size: 100% 150px;
+  }
+  #slide3{
+    background: url('../images/03.jpg') top left no-repeat;
+    background-size: 100% 150px;
+  }
+  #slide4{
+    background: url('../images/04.jpg') top left no-repeat;
+    background-size: 100% 150px;
+  }
+  #font_res{
+    font-size:10px;
+  }
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+  #myCarousel .item{
+    height: 300px;
+  }
+  #slide1{
+    background: url('../images/01.jpg') top left no-repeat;
+    background-size: 100% 300px;
+  }
+  #slide2{
+    background: url('../images/02.jpg') top left no-repeat;
+    background-size: 100% 300px;
+  }
+  #slide3{
+    background: url('../images/03.jpg') top left no-repeat;
+    background-size: 100% 300px;
+  }
+  #slide4{
+    background: url('../images/04.jpg') top left no-repeat;
+    background-size: 100% 300px;
+  }
+  #font_res{
+    font-size:13px;
+  }
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+  #myCarousel .item{
+    height: 500px;
+  }
+  #slide1{
+    background: url('../images/01.jpg') top left no-repeat;
+    background-size: 1200px 500px;
+  }
+  #slide2{
+    background: url('../images/02.jpg') top left no-repeat;
+    background-size: 1200px 500px;
+  }
+  #slide3{
+    background: url('../images/03.jpg') top left no-repeat;
+    background-size: 1200px 500px;
+  }
+  #slide4{
+    background: url('../images/04.jpg') top left no-repeat;
+    background-size: 1200px 500px;
+  }
+  #font_res{
+    font-size:17px;
+  }
+}
